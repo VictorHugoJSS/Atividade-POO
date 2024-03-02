@@ -10,7 +10,8 @@ public class Question10{
     nome = scan.nextLine();
     System.out.print("Digite o seu sobrenome: ");
     sobrenome = scan.nextLine();
-
+    scan.close();
+    
     System.out.println(sobrenome + " " + nome);
   }
 }
